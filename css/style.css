@@ -44,7 +44,7 @@ body a:hover{
 	padding: 4em 0;
 }
 .header-left img {
-    width: 100%;
+    width: 50%;
     border: 5px solid rgba(255, 255, 255, 0.68);
 }
 .header-right {
@@ -147,7 +147,7 @@ h3.title {
 }
 p {
     font-size: 1em;
-    color: #999;
+    color: #555;
     line-height: 1.8em;
 }
 .about-right {
@@ -164,7 +164,7 @@ p {
 }
 .about-right ul li {
     display: block;
-    color: #999;
+    color: #555;
     margin: 1em 0;
 	font-size:1em;
 }
@@ -175,14 +175,14 @@ p {
 /*--//about--*/
 /*--work--*/
 .work {
-    background: #000;
+    background: #fff;
 }
 .work-left {
     text-align: right;
     padding: 3em 5em 0 0;
 }
 .work-right {
-    border-left: 1px solid #999;
+    border-left: 1px solid #555;
     padding: 2.5em 0 2em 6em;
 }
 .work-info h4 {
@@ -207,7 +207,7 @@ p {
 }
 .work-info h5 {
     font-size: 1.3em;
-    color: #F7E612;
+    color: #008B8B;
     margin-bottom: .5em;
     border: 1px solid #F7E612;
     display: inline-block;
@@ -265,13 +265,16 @@ p {
 }
 /*--//work--*/
 /*--education--*/
-.education .work-info h5 {
-    color: #000;
+.education{
+background:#fff;
 }
+/*.education .work-info h5 {
+    color: #000;
+}*/
 /*--//education--*/
 /*--skills--*/
 .skills{
-	background:#000;
+	background:#fff;
 }
 .bar-grids {
     padding: 0 4em;
@@ -279,14 +282,14 @@ p {
 .progress {
     height: 10px;
     margin-bottom: 2.2em;
-    background-color: #2F2C06;
+    background-color: #666;
 }
 .progress-bar { 
-    background-color: #766E04;
+    background-color: #008B8B;
 }
 .bar-grids h6 {
     font-size: 1.1em;
-    color: #fff;
+    color: #777;
     margin-bottom: 0.6em;
 }
 .bar-grids h6 span {
@@ -382,7 +385,7 @@ h2.resp-accordion {
 }
 .grid .figcaption {
     padding: 2em 2.5em;
-    color: #fff;
+    color: #555;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
 }
@@ -483,7 +486,7 @@ h2.resp-accordion {
     transform: translate3d(100%,0,0);
 	-o-transform: translate3d(100%,0,0);
 	-ms-transform: translate3d(100%,0,0);
-    color: #fff;
+    color: #555;
     letter-spacing: 2px;
 }
 .grid:hover p {
@@ -498,7 +501,7 @@ h2.resp-accordion {
 /*--//portfolio--*/
 /*--contact--*/
 .contact{
-	background:#000;
+	background:#fff;
 }
 .contact-left iframe {
     width: 100%;
@@ -507,7 +510,7 @@ h2.resp-accordion {
 }
 .contact-form h5 {
     font-size: 2em;
-    color: #333;
+    color: #555;
 }
 .address-left {
     float: left;
@@ -519,11 +522,11 @@ h2.resp-accordion {
     width: 46%;
 }
 .contact p {
-    color: #fff;
+    color: #000;
     font-weight: 300;
 }
 .contact p a {
-    color: #fff;
+    color: #000;
 }
 .contact p a:hover{
     color: #F7E612;
@@ -539,7 +542,7 @@ h2.resp-accordion {
 }
 .contact-form input[type="text"] {
     width: 49%;
-    color: #fff;
+    color: #000;
     background: none;
     outline: none;
     font-size: 1em;
@@ -558,7 +561,7 @@ h2.resp-accordion {
 .contact-form textarea {
     width: 100%;
     background: none;
-    color: #fff;
+    color: #000;
     font-size: 1em;
     outline: none;
     padding: .8em 1em;
@@ -568,7 +571,7 @@ h2.resp-accordion {
 }
 .contact-form input[type="submit"] {
     outline: none;
-    color: #fff;
+    color: #000;
     padding: 0.6em 1em;
     font-size: 1.1em;
     margin: 1em 0 0 0;
@@ -586,19 +589,19 @@ h2.resp-accordion {
     color: #008B8B;
 }
 ::-webkit-input-placeholder {
-	color:#fff !important;
+	color:#555 !important;
 }
 
 :-moz-placeholder { /* Firefox 18- */
-	color:#fff !important; 
+	color:#555 !important; 
 }
 
 ::-moz-placeholder {  /* Firefox 19+ */
-	color:#fff !important;
+	color:#555 !important;
 }
 
 :-ms-input-placeholder {  
-	color:#fff !important;
+	color:#555 !important;
 }
 /*--//contact--*/
 /*--footer--*/
